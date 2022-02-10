@@ -62,6 +62,8 @@ public final class Bot {
 
             if (text.matches(regex)) {
                 Bot.sendTextMessage(authToken, accountSid, serviceSid, phoneNumbers);
+
+                break;
             } //end if
         } //end for
     } //checkForRelease
